@@ -1,0 +1,81 @@
+Podemos asumir que la referencia para insertBefore, insertAfter, insertNBefore, insertNAfter, deleteBefore, etc. siempre serán válidas? (el elemento referenciado existe y no se usarán los métodos cuando no exista por lo menos un elemento en la lista).
+En los métodos de insert/delete before y after se puede mandar una referencia a NULL? Por ejemplo, que un elemento se inserte antes de NULL (al final de la lista).
+
+insertBeg:
+    NULL**
+    No existe**
+    Lista vacía*
+    Modificar head*
+    Fuera de rango**   
+insertEnd:
+    NULL**
+    No existe**
+    Lista vacía*
+    Insertar antes de head*
+    Fuera de rango**
+insertBefore:
+    NULL*
+    No existe*
+    Lista vacía*
+    Insertar antes de head*
+    Fuera de rango**
+insertAfter:
+    NULL*
+    No existe*
+    Lista vacía*
+    Insertar antes de head**
+    Fuera de rango**
+insertNBefore:
+    NULL*
+    No existe*
+    Lista vacía*
+    Insertar antes de head*
+    Fuera de rango*
+insertNAfter:
+    NULL*
+    No existe*
+    Lista vacía*
+    Insertar antes de head**
+    Fuera de rango*
+deleteBeg:
+    NULL**
+    No existe**
+    Lista vacía*
+    Borrar head*
+    Vaciar lista*
+    Fuera de rango**
+deleteEnd:
+    NULL**
+    No existe**
+    Lista vacía*
+    Borrar head**
+    Vaciar lista*
+    Fuera de rango**
+deleteBefore:
+    NULL*
+    No existe*
+    Lista vacía*
+    Borrar head*
+    Vaciar lista**
+    Fuera de rango*
+deleteAfter:
+    NULL*
+    No existe*
+    Lista vacía*
+    Borrar head**
+    Vaciar lista**
+    Fuera de rango*
+deleteNBefore:
+    NULL*
+    No existe*
+    Lista vacía*
+    Borrar head*
+    Vaciar lista**
+    Fuera de rango*
+deleteNAfter:
+    NULL*
+    No existe*
+    Lista vacía*
+    Borrar head**
+    Vaciar lista**
+    Fuera de rango*
