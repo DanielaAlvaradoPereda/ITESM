@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=numeroDePieza\ descripcion\ cantidad\ precio
+comment0.target=Factura(java.lang.String,\ java.lang.String,\ int,\ double)
+comment1.params=numero
+comment1.target=void\ establecerNumero(java.lang.String)
+comment2.params=descripcion
+comment2.target=void\ establecerDescripcion(java.lang.String)
+comment3.params=cantidad
+comment3.target=void\ establecerCantidad(int)
+comment4.params=precio
+comment4.target=void\ establecerPrecio(double)
+comment5.params=
+comment5.target=java.lang.String\ obtenerNumero()
+comment6.params=
+comment6.target=java.lang.String\ obtenerDescripcion()
+comment7.params=
+comment7.target=int\ obtenerCantidad()
+comment8.params=
+comment8.target=double\ obtenerPrecio()
+comment9.params=
+comment9.target=double\ obtenerMontoFactura()
+numComments=10

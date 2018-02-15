@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=nombre\ saldo
+comment0.target=Cuenta(java.lang.String,\ double)
+comment1.params=nombre
+comment1.target=void\ establecerNombre(java.lang.String)
+comment2.params=
+comment2.target=double\ obtenerSaldo()
+comment3.params=
+comment3.target=java.lang.String\ obtenerNombre()
+comment4.params=montoDeposito
+comment4.target=void\ depositar(double)
+comment5.params=montoRetiro
+comment5.target=void\ retirar(double)
+numComments=6
