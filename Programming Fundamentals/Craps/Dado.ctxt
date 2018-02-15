@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=Dado()
-comment1.params=
-comment1.target=int\ getCara()
-comment2.params=
-comment2.target=int\ tirarDado()
-numComments=3
