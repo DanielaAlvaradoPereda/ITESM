@@ -1,0 +1,20 @@
+public class InvierteMitad
+{
+  public static void main(String[] args)
+  {
+    String ruta = FileChooser.pickAFile();
+    Sound original = new Picture(ruta);
+    Sound invertido = new Sound(original.getLength());
+    
+    int mitad = original.getLength() / 2 - 1;
+    
+    original.blockedPlay();
+    
+    for(int i = 0; i <= mitad; i++)
+    {
+      int valor = original.getSampleValueAt(original.getLength() - i - 1);
+      invertido.setSampleValueAt(mitad + 1 + i, valor);
+    }
+    invertido.play();
+  }
+}

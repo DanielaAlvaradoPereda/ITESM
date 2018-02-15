@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=numeros
+comment1.target=int\ suma(int[])
+comment2.params=numeros
+comment2.target=double\ promedio(int[])
+comment3.params=numeros
+comment3.target=int\ mayor(int[])
+comment4.params=numeros
+comment4.target=int\ menor(int[])
+numComments=5

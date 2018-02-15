@@ -1,0 +1,22 @@
+public class InvierteFoto
+{
+  public static void main(String[] args)
+  {
+    String ruta = FileChooser.pickAFile();
+    Picture original = new Picture(ruta);
+    Picture invertida = new Picture(ruta);
+    original.show();
+    Pixel pixelOriginal = null;
+    Pixel pixelInvertido = null;
+    for(int y = 0; y < original.getWidth(); y++)
+    {
+      for(int x = 0; x <original.getHeight(); x++)
+      {
+        pixelOriginal = original.getPixel(original.getWidth() - x, original.getHeight() - y);
+        pixelInvertido = reconstruido.getPixel(x, y);
+        pixelInvetido.setColor(pixelOriginal.getColor());
+      }
+    }
+    invertida.show();
+  }
+}

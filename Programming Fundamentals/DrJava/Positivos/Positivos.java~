@@ -1,0 +1,17 @@
+public class Positivos
+{
+  public static void main(String args[])
+  {
+    int muestra = 0;
+    Sound sonido = new Sonido(FileChooser.pickAFile());
+    SoundSample muestras[] = sonido.getSamples();
+    for(int i = 0; i < muestras.length(); i++)
+    {
+      muestra = sonido[i].getValue();
+      if(muestra < 0)
+      {
+        sonido[i].setValue(muestra * -1);
+      }
+    }
+  }
+}
