@@ -1,0 +1,50 @@
+3 - 1
+2 - 0
+1 - 2
+0 - 3
+3 - 2
+0 - 1
+4 - 0
+
+dgoat
+  Seguidores
+    *daSalsaDragon
+    volapapa
+  Siguiendo
+    cretino
+    plate
+plate
+  0 hola haha #volapapa
+  1 i love volapapa #amowr (volapapa)(cretino)
+  Seguidores
+    cretino
+    dgoat
+  Siguiendo
+    *daSalsaDragon
+daSalsaDragon
+  2 omg hehe
+  3 dgoaaaat
+  4 tuna forever #love (plate)
+  Seguidores
+    plate
+    cretino
+  Siguiendo
+    dgoat
+cretino
+  5 odio a todos :P #odio (daSalsaDragon)	
+  Seguidores
+    dgoat
+  Siguiendo
+    plate
+    *daSalsaDragon
+Vola Papa
+  6 I am the Vola Papa #worldDominance (dgoat)(daSalsaDragon)
+  Seguidores
+  Siguiendo
+    dgoat
+
+no admite datos fuera de rango
+elimina referencias
+
+*numeros de tweets
+numero de caracteres
