@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Prisma()
+comment1.params=largo
+comment1.target=void\ setLargo(double)
+comment2.params=
+comment2.target=double\ getLargo()
+comment3.params=
+comment3.target=double\ getAncho()
+comment4.params=
+comment4.target=double\ getAltura()
+comment5.params=
+comment5.target=double\ getMasa()
+numComments=6
